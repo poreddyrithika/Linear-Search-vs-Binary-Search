@@ -21,7 +21,8 @@ To compare the performance of Linear Search and Binary Search algorithms by meas
 
 ## Output Graph
 The following graph shows the comparison of execution time for Linear Search and Binary Search algorithms for different input sizes.
-![Linear vs Binary Search Execution Time](linear_vs_binary_search.png)
+
+![Linear vs Binary Search Execution Time](linear_vs_binary_search_graph.png)
 
 ## Observations
 - The execution time of Linear Search increases proportionally with the increase in input size.
