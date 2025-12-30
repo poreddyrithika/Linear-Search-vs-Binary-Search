@@ -19,12 +19,14 @@ To compare the performance of Linear Search and Binary Search algorithms by meas
 4. Execution time for both algorithms is measured.
 5. The results are compared.
 
-## Sample Output
-![Sample Output](Output.png)
+## Output Graph
+The following graph shows the comparison of execution time for Linear Search and Binary Search algorithms for different input sizes.
+![Linear vs Binary Search Execution Time](linear_vs_binary_search.png)
 
 ## Observations
-- Linear Search execution time increases as the array size increases.
-- Binary Search execution time remains almost constant and increases very slowly even when the array size increases.
+- The execution time of Linear Search increases proportionally with the increase in input size.
+- The execution time of Binary Search shows very slow growth, appearing almost constant on the graph.
+- The experimental results align with the theoretical time complexities: O(n) for Linear Search and O(log n) for Binary Search.
 
 ## Conclusion
 Binary Search is more efficient than Linear Search for large datasets because it follows a divide-and-conquer approach and has logarithmic time complexity.
